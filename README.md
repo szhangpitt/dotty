@@ -1,3 +1,7 @@
+angular-dotty
+=====
+## Angularified dotty components, as described below
+
 Dotty [![build status](https://secure.travis-ci.org/deoxxa/dotty.png)](http://travis-ci.org/deoxxa/dotty)
 =====
 
@@ -78,3 +82,4 @@ Contact
 * GitHub ([http://github.com/deoxxa](deoxxa))
 * Twitter ([http://twitter.com/deoxxa](@deoxxa))
 * Email ([mailto:deoxxa@fknsrs.biz](deoxxa@fknsrs.biz))
+
