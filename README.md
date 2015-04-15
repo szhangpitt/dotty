@@ -3,15 +3,17 @@ angular-dotty
 ## Angularified dotty components, as described below
 
 ### How to use
- 
- 1. Include /lib/index.js
- 2. In your Angular module declaration, use: 
 
+#### step 1 
+Include /lib/index.js
+#### step 2
+In your Angular module declaration, use: 
 ```javascript 
 angular.module('myapp', ['dotty'])
 ```
- 3. In your controller/factory/directive/whatever, use: 
-
+#### step 3
+In your controller/factory/directive/whatever, use: 
+```javascript
 angular.factory('MyFactory', ['dotty', function(dotty) {
   var obj = {
     some: {
@@ -23,6 +25,9 @@ angular.factory('MyFactory', ['dotty', function(dotty) {
   
   var daValue = dotty.get(obj, 'some.nested.property');
 }])
+```
+
+
 ## &#8595;&#8595;&#8595; These are the original module info. &#8595;&#8595;&#8595;
 Dotty [![build status](https://secure.travis-ci.org/deoxxa/dotty.png)](http://travis-ci.org/deoxxa/dotty)
 =====
