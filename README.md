@@ -2,6 +2,15 @@ angular-dotty
 =====
 ## Angularified dotty components, as described below
 
+### How to use
+ 
+ 1. Include /lib/index.js
+ 2. In your Angular module declaration, use: 
+
+```javascript 
+angular.module('myapp', ['dotty'])
+```
+
 Dotty [![build status](https://secure.travis-ci.org/deoxxa/dotty.png)](http://travis-ci.org/deoxxa/dotty)
 =====
 
