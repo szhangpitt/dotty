@@ -10,7 +10,7 @@ angular-dotty
 ```javascript 
 angular.module('myapp', ['dotty'])
 ```
-
+## &#8595;&#8595;&#8595; These are the original module info. &#8595;&#8595;&#8595;
 Dotty [![build status](https://secure.travis-ci.org/deoxxa/dotty.png)](http://travis-ci.org/deoxxa/dotty)
 =====
 
